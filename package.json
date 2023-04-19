@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@reduxjs/toolkit": "^1.9.3",
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
@@ -21,10 +22,10 @@
         "yup": "^1.0.2"
     },
     "scripts": {
-        "start1": "cd app1 && react-scripts start",
-        "start2": "cd app2 && react-scripts start",
-        "start3": "cd app3 && react-scripts start",
-        "start4": "cd app4 && react-scripts start",
+        "app": "cd app && react-scripts start",
+        "client": "cd client && react-scripts start",
+        "start": "cd test && react-scripts start",
+        "api": "cd api && react-scripts start",
         "start5": "cd app5 && react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
